@@ -1,14 +1,29 @@
 
 {
-  "name": "globalpay-secure-payments",
+  "name": "globalpay-secure-portal",
   "version": "1.0.0",
   "private": true,
+  "description": "Secure payment gateway with multi-step verification",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "lucide-react": "^0.563.0"
+    "lucide-react": "^0.463.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.2"
   }
 }
